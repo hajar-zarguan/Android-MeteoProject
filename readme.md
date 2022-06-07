@@ -11,21 +11,22 @@
 
 Il faut afficher les données météorologiques du point sur lequel vous avez cliqué sur la map. Les
 données à afficher sont :
-a. La date et l’heure à partir du champ "dt": 1654343407,
-b. Les champs "weather"/ "main": et "weather"/ "icon"
-c. Les champs : "main": {
- "temp": x,
- "feels_like":x,
- "temp_min":x,
- "temp_max":x,
- "pressure":x,
- "humidity":x,
- "sea_level":x,
- },
-d. wind": { "speed": x }
+- a. La date et l’heure à partir du champ "dt": 1654343407,
+- b. Les champs "weather"/ "main": et "weather"/ "icon"
+- c. Les champs : "main": {
+  "temp": x,
+  "feels_like":x,
+  "temp_min":x,
+  "temp_max":x,
+  "pressure":x,
+  "humidity":x,
+  "sea_level":x,
+  },
+- d. wind": { "speed": x }
 
 #### 3. Interroger l’API Call 5 day / 3 hour forecast data pour afficher les données météorologiques du même point sur 5 jours en utilisant la requête suivante :
-api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={appid={API key}
+![image](https://user-images.githubusercontent.com/82539023/172385706-b8eb1daa-1eaf-4db9-b72e-8e9c42155c77.png)
+
 
 ### Screenshots
 
